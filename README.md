@@ -6,11 +6,11 @@ There are two columns named: date_created and date_updated to trace any change i
 
 ## APIs discussion
 
-1. API for adding a book -> `http://127.0.0.1:8000/api/add/book/`
-2. API for updating a book -> `http://127.0.0.1:8000/api/update/book/<int:pk>/`
-3. API for deleting a book -> `http://127.0.0.1:8000/api/delete/book/<int:pk>/`
-4. API for retreving all books -> `http://127.0.0.1:8000/api/all/`
-5. API for search by category -> `http://127.0.0.1:8000/api/all/?category=category_name`
+1. API for adding a book -> `http://127.0.0.1:8000/api/book/`
+2. API for updating a book -> `http://127.0.0.1:8000/api/book/<int:pk>/`
+3. API for deleting a book -> `http://127.0.0.1:8000/api/book/<int:pk>/`
+4. API for retreving all books -> `http://127.0.0.1:8000/api/book/`
+5. API for retreving a book by id -> `http://127.0.0.1:8000/api/book/<int:pk>/`
 
 ## Request format
 
